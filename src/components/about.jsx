@@ -2,9 +2,9 @@ import React from "react";
 
 function About(props) {
   return (
-    <id id="about">
+    <div id="about">
       <div className="about-image">
-        <img src={""} alt="" />
+        <img src={props.image} alt="" />
       </div>
       <div className="about-text">
         <h2>{props.title}</h2>
@@ -16,7 +16,7 @@ function About(props) {
         </p>
         <button>{props.button}</button>
       </div>
-    </id>
+    </div>
   );
 }
 
